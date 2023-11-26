@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotals</title>
+    <link rel="stylesheet" href="{% static 'css/a3.css' %}">
+</head>
+<body>
+    <center>
+        <marquee behavior="" direction="" scrollamount="15"><h1>WELCOME TO TAJ HOTAL</h1></marquee>
+        <img src="{% static 'images/Taj.jpg' %}" alt="">
+        <a href="{% url 'registration' %}"><h1><button>ENTER YOUR DETAILS</button></h1></a>
+    </center>
+</body>
+</html>
